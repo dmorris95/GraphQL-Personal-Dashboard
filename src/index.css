@@ -1,0 +1,17 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #010000f3;
+    color: #cd4646b5;
+}
+body.light-mode {
+    background-color: #f1f1f1d6;
+    color: #010101;
+}
+
+.card, .list-group-item {
+    background-color: inherit;
+    color: inherit;
+}
