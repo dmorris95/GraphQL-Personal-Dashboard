@@ -2,6 +2,8 @@ Welcome to the Personal Dashboard!
 
 This application is React based with Typescript that runs Apollo Client and GraphQl. This application interacts with the GraphQLZero API (https://graphqlzero.almansi.me/#example-top) for all means of data. NOTICE: Updating, creating, and deleting information is cosmetic as GraphQLZero does not allow for modification of the database.
 
+GitHub: https://github.com/dmorris95/GraphQL-Personal-Dashboard
+
 Features:
 
 - Profile
