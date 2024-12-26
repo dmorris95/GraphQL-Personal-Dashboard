@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+Welcome to the Personal Dashboard!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is React based with Typescript that runs Apollo Client and GraphQl. This application interacts with the GraphQLZero API (https://graphqlzero.almansi.me/#example-top) for all means of data. NOTICE: Updating, creating, and deleting information is cosmetic as GraphQLZero does not allow for modification of the database.
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Profile
+    - The Profile section shows a user all of a users information that is stored in the database.
+- Posts
+    - The Posts section shows all of a selected users posts with the ability to edit the data in a post with press of a button. The Posts section also allows a user to click a post and view any comments related to the Post.
+- Post Form
+     - The Post Form allows a user to create a new form or when the edit button is clicked on a post; the ability to edit or delete the selected post.
+- Albums 
+    - The Albums section shows all of a Users albums they have. When an album is clicked it will showcase the photos within the album.
+- Todos
+    - The Todos section provides two sections on the page, a completed todo list and an incomplete todo list. Users are able to remove and mark todos as completed/incomplete and the UI will showcase the change in real time.
+- Search Functionality
+    - The Albums, Todos, and Posts provide the user the ability to use a search function to narrow down posts, todos, or albums by keywords.
+- Dark/Light Theme
+    - The application provides the user with the option between a light or dark theme with the press of a button.
